@@ -10,7 +10,7 @@ While `bool` value represents 1 bit (yes/no), the unit value provides no informa
 `Unit` is useful as type argument where the value of the type should be ignored.
 
 ## Usage
-Install this package via NuGet.
+Install this package via [NuGet](https://www.nuget.org/packages/DotNetKit.Misc.Unit/).
 
 ```csharp
 using DotNetKit.Misc;
