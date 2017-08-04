@@ -19,14 +19,6 @@ namespace DotNetKit.Misc
         /// </summary>
         public static Unit Instance => default(Unit);
 
-        /// <summary>
-        /// Gets a string which represents the unit value.
-        /// </summary>
-        public override string ToString()
-        {
-            return "()";
-        }
-
         #region Equality
         /// <summary>
         /// Gets a value indicating whether two unit values are equal. Always <c>true</c>.
