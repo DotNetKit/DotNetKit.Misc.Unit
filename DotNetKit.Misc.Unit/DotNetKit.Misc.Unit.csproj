@@ -6,4 +6,7 @@
     <NoStandardLibraries>true</NoStandardLibraries>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.0\DotNetKit.Misc.Unit.XML</DocumentationFile>
+  </PropertyGroup>
 </Project>
